@@ -1,145 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    #left-menu{
-        display: flex;
-        justify-content: space-around;
-        width: 17%;
- 
-    }
-    
-    #logo{
-        display: flex;
-     justify-content: space-around;
-    }
-    #menu{
-        display: flex;
-        justify-content: space-around;
-    }
-    #search{
-        display: flex;
-        width: 15%;
-    }
-   
-    #center-menu{
-display: flex;
-justify-content: space-around;
 
-}   
-
-    #left-cmenu{
-    display: flex;
-    justify-content: space-around;
-    width: 20%;
-  margin-left: 100px;
-  margin-top: 100px;
-  font-size: small;
-  color: rgba(1, 193, 33, 0.819);
-    }
-    #left-img{
-     margin-top: 14%;
-    justify-content: space-around;
-
-
-    }
-
-#center-img{
-    margin-top: 14%;
-    justify-content: space-around;
-}
-
-#product-name{
-    margin-top: 14%;
-
-
-   
-}
-#a{
-    display: flex;
-   
-}
-   
-    #rv{
-        display: flex;
-        justify-content: left;
-      
-
-    }
-  
-   
-    
-</style>
 <body>
-    <div id="menu">
-        <div id="left-menu">
-            <div style="color: darkgreen; font-family: lu;">Shop</div>
-            <div>Offers</div>
-            <div>Our Story</div>
-            <div>Blog</div>
+    <div class="wrapper">
+        <div class="header">
+            <div class="left-header">
+                <a href="#">Shop</a>
+                <a href="#">Offers</a>
+                <a href="#">Our story</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="middle-header">
+                <img src="Image 1 (13).png" alt="">
+            </div>
+            <div class="right-header">
+                <input type="text" placeholder="Search product...">
+                <img src="Button 1.png" alt="">
+                <img src="Button 1 (1).png" alt="">
+            </div>
+        </div>
 
-        </div>
-        <div id="logo">
-            <img src="logo.png" alt="">
-        </div>
-        <div id="search">
-            <input type="text" id="img"  placeholder="Search product .." width="100px">
-            <div > <img src="Button 1.png" alt="" width="100px"></div>
-            <div><img src="Button 1 (1).png" alt="" width="50px"></div>
-        </div>
+        <div class="container">
 
+
+          
+            <div class="banner-product">
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <img src="Caret right 1.png" alt="">
+                    <a href="#">Shop</a>
+                    <img src="Caret right 1.png" alt="">
+                    <a href="#">Productss type</a>
+                    <img src="image/Caret right 1.png" alt="">
+                    <a href="#">Detail</a>
+                </div>
+                <div class="product-detail">
+                    <div class="left-product-detail">
+                        <div class="picture-item-left">
+                            <img src="Image 1.png" alt="">
+                            <img src="Image 1 (1).png" alt="">
+                            <img src="Image 1 (2).png" alt="">
+                            <img src="Image 1 (3).png" alt="">
+                        </div>
+                        <div class="product-item-middle">
+                            <img src="Image 1 (4).png" alt="">
+                        </div>
+                        <div class="right-product">
+                            <p>Best Saleler</p>
+                        </div>
+                    </div>
+
+                    <div class="right-product-detail">
+                        <div class="product-name">
+                            <h2><b>Product name</b></h2>
+                            <p>Aliquip fugiat ispum nostrud ex et eu incididunt</p>
+                            <ul>
+                                <li class="first">$32</li>
+                                <li class="second">$42</li>
+                            </ul>
+                        </div>
+                        <div class="product-desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sint unde repellat
+                                repellendus! Necessitatibus illo officia quae temporibus, tempore, voluptate
+                                consequuntur itaque provident assumenda, accusantium et libero voluptatem
+                                natus sequi!</p>
+                            <ul>
+                                <li><b>368 </b> reviews</li>
+                                <li><b>823 </b> sold</li>
+                                <li><img src="Rating 1 (1).png" alt=""><b>4.5</b></li>
+                            </ul>
+                            <div class="check">
+                                <img src="Check circle 1 (1).png" alt="">
+                                <span>Free shipping opn order over $49USD</span>
+                            </div>
+
+                            <div  class="check">
+                                <img src="Check circle 1 (1).png" alt="">
+                                <span>Free + easy return</span>
+                            </div>
+
+                            <div id="Choice">
+                                <p><b>Choose size</b></p>
+                                <select name="Choice">
+                                    <option value="1">50.000 ML</option>
+                                    <option value="2">40.000 ML</option>
+                                </select>
+                            </div>
+
+                            <div class="quantity">
+                                <p><b>Quantity</b></p>
+                                <ul>
+                                    <li>-</li>
+                                    <li>1</li>
+                                    <li>+</li>
+                                </ul>
+                            </div>
+                            <div class="product-btn">
+                                <button class="btn-first">
+                                    Add to bag
+                                </button>
+                                <button class="btn-second">
+                                    Checkout
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related-product">
+                <h2 >Related products</h2>
+                <div class="product-items">
+                    <div class="item-related">
+                        <div class="picture">
+                            <img src="Image 1 (5).png" alt="" class="related-picture">
+                        </div>
+                        <p class="title">Best Seller</p>
+                        <h3>Products title</h3>
+                        <p>Labore sint ispum dolore mollit</p>
+                        <div class="info">
+                            <ul>
+                                <li class="first">$32</li>
+                                <li class="second">$42</li>
+                            </ul>
+                            <img src="Button 1 (2).png" alt="">
+                        </div>
+                    </div>
+                    <div class="item-related">
+
+                        <div class="picture">
+                            <img src="Image 1 (6).png" alt="" class="related-picture">
+                        </div>
+                        <p class="title">Best Seller</p>
+                        <h3>Products title</h3>
+                        <p>Labore sint ispum dolore mollit</p>
+                        <div class="info">
+                            <ul>
+                                <li class="first">$22</li>
+                                <li class="second">$28</li>
+                            </ul>
+                            <img src="Button 1 (2).png" alt="">
+                        </div>
+                    </div>
+                    <div class="item-related">
+                        <div class="picture">
+                            <img src="Image 1 (7).png" alt="" class="related-picture">
+                        </div>
+                        <p class="title">Best Seller</p>
+                        <h3>Products title</h3>
+                        <p>Labore sint ispum dolore mollit</p>
+                        <div class="info">
+                            <ul>
+                                <li class="first">$48</li>
+                                <li class="second">$56</li>
+                            </ul>
+                            <img src="Button 1 (2).png" alt="">
+                        </div>
+                    </div>
+                    <div class="item-related">
+                        <div class="picture">
+                            <img src="Image 1 (8).png" alt="" class="related-picture">
+                        </div>
+                        <p class="title">Best Seller</p>
+                        <h3>Products title</h3>
+                        <p>Labore sint ispum dolore mollit</p>
+                        <div class="info">
+                            <ul>
+                                <li class="first">$18</li>
+                                <li class="second">$26</li>
+                            </ul>
+                            <img src="Button 1 (2).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+            <div class="benefit">
+                    <div>
+                        <ul class="benefit-menu" >
+                            <li>Benefits</li>
+                            <li>Ingredients</li>
+                            <li>How to use</li>
+                            <li>Reviews</li>
+                            <li>FAQs</li>
+                        </ul>
+                    </div>
+                    <div class="benefit-container">
+                        <div class="left-container">
+                            <div class="paragraph">
+                                <h2>Benefits</h2>
+                                <p>Consectetur excepteur elit ellamco incididunt voluptate tempor exercitation.Lorem commodo ullamco quis velit officia aute loboris elit sit exercitation ut esse pariatur occaecat quis</p>
+                            </div>
+                  
+                            <div class="paragraph">
+                                <h3>Laboris consequat ad
+                                </h3>
+                                <p>Consectetur excepteur elit ullamco incididunt voluptate tempor exercitation. Lorem commodo ullamco quis velit officia aute laboris elit sit exercitation ut esse pariatur</p>
+                            </div>
+                           
+                            <div class="paragraph">
+                                <h3>Duis duis do labore pariatur</h3>
+                                <p>Ad qui aliqua nulla nostrud consectetur laboris nostrud commodo voluptate. Lorem id qui laborum aute voluptate</p>
+                            </div>
+                        
+                            <div class="paragraph">
+                                <h3>Deserunt ex</h3>
+                                <p>Cupidatat culpa id do laboris nisi aliqua eu. Veniam aliqua duis Lorem adipisicing et minim velit quis</p>
+                            </div>
+
+
+                        </div>
+                        <div class="right-container">
+                            <img src="Image 1 (9).png" alt="">
+                        </div>
+                    </div>
+                    <div class="ingredients">
+                        <h2 >Ingredients</h2>
+                        <div class="ingredients-item">
+                            <div class="item-ingredients">
+                                <div class="picture">
+                                    <img src="Image 1 (10).png" alt="" class="ingredients-picture">
+                                </div>
+                            
+                                <h3>Hyaluronic acid</h3>
+                                <p>Elit do sit exceptuer duis labore nisi sit anim <br>adipisicing duis incididunt sit anim sint est<br> exercitation aute consectetur irure</p>
+                                
+                            </div>
+                            <div class="item-ingredients">
+        
+                                <div class="picture">
+                                    <img src="Image 1 (11).png" alt="" class="ingredients-picture">
+                                </div>
+                              
+                                <h3>Green tea</h3>
+                                <p>Tempor adipisicing aute pariatur magna enim<br>Lorem voluptate incididunt culpa ex Veniam<br> sunt occaecat tempor</p>
+                                <div class="center-banner">
+                                    <button class="button">See full list    </button>
+                                    
+                                </div>
+                            </div>
+                                <div class="item-ingredients">
+        
+                                    <div class="picture">
+                                        <img src="Image 1 (12).png" alt="" class="ingredients-picture">
+                                        <h3>Olive oil</h3>
+                        <p>Cupidatat culpa id do laboris nisi aliqua eu.<br> Veniam aliqua duis Lorem adipisicing et minim<br> velit quis</p>
+                             
+                  
+                  
+
+            </div>
+        </div>
     </div>
-    <div id="center-menu">
-        <div id="left-cmenu">
-            <div>Home</div>
-            <div ><img src="Caret right 1.png" alt=""  width="15" ></div>
-            <div>Shop</div>
-            <div ><img src="Caret right 1.png" alt="" width="15"></div>
-            <div>Product type</div>
-            <div ><img src="Caret right 1.png" alt="" width="15"></div>
-            <div style="color: black;">Detail</div>
-
-        </div>
-        <div id="left-img">
-            <div> <img src="Image 1.png" alt=""></div>
-            <div> <img src="Image 1 (1).png" alt=""></div>
-            <div> <img src="Image 1 (2).png"></div>
-            <div> <img src="Image 1 (3).png"></div>
-
-        </div>
-    <div id="center-img">
-        <div id="img-a"><img src="Image 1 (4).png" alt="" width="300px"></div>
-       
-
-    </div>
-    <div id="product-name">
-        <div>Product name</div>
-        <div>Aliquip fugiat ipsum nostrud ex et eu incididunt</div><br>
-    <div id="a" style="color: darkgreen; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ; font-size: 30px;">$32 </div>  <p></p><Br>
-<div>In ullamco labore mollit et execriation fugiat execriation minim ex sint <br>ullamco execriation amet offica mollit. Qui cillum pariatur in con</div>
-<div id="rv">
-   <div>368 review</div>
-   <div>823 sold</div>
-   <div><img src="Rating 1 (3).png" alt="">4.5</div>
-</div>
-   <div id="tag"></div>
-   
-<div><img src="Check circle 1 (1).png" alt="">Free shipping on order over $49USD</div>
-<div><img src="Check circle 1 (1).png" alt="" >Free + easy returns </div>
-<div> Choose size</div>
-<select name="tt"  tabindex="10">
-    <option value="50.00ml     asdasdasdasdas   ">50.00 ML </option>
-  <option value="saab">100.00 ML</option>
-  <option value="mercedes">200.00 ML</option>
-  <option value="audi">250.00ML............................... </option>
-</select>
-    </div>
-</div>
-
 </body>
+
 </html>
