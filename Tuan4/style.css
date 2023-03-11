@@ -177,7 +177,6 @@
     background-color: rgba(0, 128, 0, 0.848);
 }
 
-/*related-products*/
 .related-product {
     margin-left: 100px;
 }
@@ -263,31 +262,43 @@
 .benefit-container {
     margin-top: 40px;
     width: 100%;
-    margin-left: 100px;
+    margin-left:150px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 
 .left-container {
-    width: 500px;
+    width: 600px;
     height: 550px;
     margin-top: 90px;
+    margin-right: 100px;
+    justify-content:space-between;
+    margin-right: 100px;
+
 }
+
+
+
+
 
 .left-container .paragraph p,
 .left-container .paragraph h2,
 .left-container .paragraph h3
 {
-    margin: 0;
+  margin: 0;
+  text-align: left;
 }
 
 .left-container .paragraph {
     margin-bottom: 10px;
+
+    
 }
 
 .right-container img {
-    width: 500px;
+    
+    width: 700px;
     height: 600px;
 }
 
@@ -312,3 +323,57 @@
       text-align: center;  
      
 }
+.container-use {
+    position: relative;
+    width: 150%;
+    max-width: 1267px;
+  }
+  
+  .container-use img {
+     
+    width: 1167px;
+    height: 671px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-use .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #0b0b0b;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px;
+    text-align: center;
+  }
+  
+  .container-use .btn:hover {
+    background-color: black;
+  }
+  .review{
+    background-color: #c4c1c1;
+    display: flex;
+width: 1275px;
+height:  400px;
+
+  }
+  .review img{
+    width: 150px;
+    height: 15px;
+}
+
+
+    
+    
+
+
+   
+
+  
